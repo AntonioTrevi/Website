@@ -1,0 +1,115 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	color: #333;
+}
+
+header {
+	background-color: #4a148c;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+section {
+	padding: 40px 20px;
+}
+
+h2 {
+	margin-top: 0;
+	color: #4a148c;
+	text-align: center;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content p {
+	flex: 1;
+	margin-right: 40px;
+}
+
+.text {
+	flex: 1;
+}
+
+.text p {
+	margin-bottom: 20px;
+}
+
+.service {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.service img {
+	width: 100px;
+	margin-right: 20px;
+}
+
+.service h3 {
+	color: #4a148c;
+}
+
+.testimonial {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.testimonial img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.testimonial blockquote {
+	flex: 1;
+	border-left: 4px solid #4a148c;
+	padding-left: 20px;
+}
+
+.testimonial cite {
+	font-style: italic;
+	color: #666;
+}
+
+.contact form input[type="submit"] {
+	background-color: #4a148c;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #4a148c;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+}

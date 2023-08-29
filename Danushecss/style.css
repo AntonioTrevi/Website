@@ -1,0 +1,262 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	font-family: "Times New Roman", serif;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	font-weight: 500;
+}
+.top {
+	margin: 0px;
+}
+.header {
+	display: flex;
+	background-color: rgb(51, 48, 48);
+	justify-content: center;
+	align-items: center;
+	border-bottom: solid rgba(0, 0, 0, 0.193) 0.063rem;
+	width: 100%;
+	position: fixed;
+}
+.links {
+	display: flex;
+	margin-left: auto;
+}
+.logo {
+	margin-left: 1.25rem;
+	height: 2.25rem;
+	margin-left: 1.5rem;
+	transition: all 2s;
+	height: 6rem;
+}
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	font-size: 2.188rem;
+	box-shadow: inset 0 0 0 0 #f8f8f8ca;
+	color: rgb(255, 255, 255);
+	margin: 0 -0.25rem;
+	padding: 0 0.25rem;
+	transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+a:hover {
+	box-shadow: inset 9.375rem 0 0 0 rgb(70, 153, 183);
+	color: rgb(0, 0, 0);
+}
+ul {
+	display: flex;
+	gap: 2.5rem;
+	margin-right: 2.5rem;
+	justify-content: center;
+	align-items: center;
+}
+
+#about {
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	border-bottom: solid rgb(255, 255, 255, 0.5) 0.063rem;
+	background-image: url(/img/background.jpg);
+}
+#about .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 120rem;
+	height: 45rem;
+	padding: 2rem;
+	border: 0.188 solid rgb(255, 255, 255);
+	border-radius: 100rem;
+	box-shadow: 0.125rem 0.125rem 0.938rem 0.125rem black;
+	background: rgb(255, 255, 255);
+	margin: 8rem 4.5rem 4.5rem;
+	gap: 1.5rem;
+}
+
+.about-header {
+	font-size: 6rem;
+	font-family: "Brush Script MT", cursive;
+}
+.about-text {
+	font-size: 2.188rem;
+	font-weight: 500;
+}
+.placeholder {
+	object-fit: cover;
+	flex: 1 1 auto;
+	max-width: 18.75rem;
+	border: 0.938rem solid rgb(0, 0, 0);
+	border-radius: 50%;
+	box-shadow: 0.125rem 0.125rem 0.188rem black;
+}
+.placeholder img {
+	height: 17rem;
+	display: flex;
+	border-radius: 100%;
+}
+#gallery {
+	background: rgb(0, 0, 0);
+	width: 100%;
+	height: 112vh;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	border-bottom: solid rgb(255, 255, 255, 0.5) 0.063rem;
+}
+.image-text img {
+	border-radius: 20%;
+	box-shadow: 0.313rem 0.313rem 0.625rem 0.313rem rgb(0, 0, 0);
+	width: 18.75rem;
+	height: 18.75rem;
+	margin-bottom: 0.938rem;
+	max-height: 100%;
+}
+.image-icon {
+	border: 0.75rem solid rgb(230, 250, 250);
+}
+.gallery-header {
+	font-size: 8rem;
+	margin-bottom: 2rem;
+	margin-top: 2.188rem;
+	text-shadow: 0.125rem 0.125rem 0.063rem white;
+	font-family: "Brush Script MT", cursive;
+	color: white;
+}
+.gallery-images {
+	gap: 3.75rem;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+.image-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 51.25rem;
+	gap: 0.5rem;
+	color: white;
+	font-size: 1.813rem;
+	text-shadow: 0.125rem 0.125rem 0.063rem black;
+	font-weight: 500;
+}
+
+#info {
+	text-align: center;
+	background: rgb(255, 255, 255);
+	width: 100%;
+	height: 100vh;
+	border-bottom: solid rgb(255, 255, 255, 0.5) 0.063rem;
+
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.info-header {
+	font-size: 8rem;
+	font-family: "Brush Script MT", cursive;
+	text-shadow: 0.063rem 0.063rem 0.125rem rgb(255, 255, 255);
+}
+.info-text {
+	font-size: 2.188rem;
+	margin: 2.5rem 2.5rem 2.5rem;
+	font-weight: 500;
+}
+#clue-container {
+	width: 100%;
+	height: 100vh;
+	border-bottom: solid black 0.063rem;
+	background-image: url(/img/header-background.jpg);
+	background-size: cover;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-shadow: black 0.063rem 0.063rem;
+	font-size: larger;
+}
+.clue-first {
+	font-size: 8rem;
+	font-weight: 900;
+	margin-bottom: 5.625rem;
+	font-family: "Brush Script MT", cursive;
+}
+.clue-info {
+	display: flex;
+	justify-content: center;
+	gap: 3.25rem;
+}
+.more-clue {
+	max-width: 31.25rem;
+}
+.clue-header {
+	font-size: 3.125rem;
+	margin-bottom: 1.875rem;
+	color: rgb(255, 255, 255);
+	text-shadow: 0.063rem 0.063rem 0.063rem rgb(0, 0, 0);
+}
+.clue-text {
+	font-size: 2.188rem;
+	font-weight: 500;
+	font-family: Georgia, serif;
+	text-shadow: 0.313rem 0.313rem 0.625rem rgb(0, 0, 0);
+}
+#contact {
+	width: 100%;
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+.title-contact {
+	font-size: 5rem;
+	margin-bottom: 1.25rem;
+	font-family: "Brush Script MT", cursive;
+	font-weight: 900;
+	text-shadow: 0.063rem 0.063rem 0.063rem rgb(0, 0, 0);
+}
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1.875rem;
+}
+.contact-text {
+	font-size: 3rem;
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.875rem;
+}
+.contact-icon {
+	max-width: 3.125rem;
+	max-height: 3.125rem;
+}
+.footer {
+	height: 6rem;
+	width: 100%;
+	display: flex;
+	background-color: rgb(51, 48, 48);
+	justify-content: center;
+	align-items: center;
+	border-bottom: solid rgba(0, 0, 0, 0.193) 0.063rem;
+	font-size: 1.25rem;
+	color: rgb(255, 255, 255);
+}

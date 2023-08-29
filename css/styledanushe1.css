@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.block {
+	width: 80%;
+	background: #008000;
+	padding: 2em;
+	margin: 0 auto;
+}
+.ch1-text {
+	width: 40%;
+}
